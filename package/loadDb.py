@@ -2,6 +2,12 @@ import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
 
+
+def load_energydata_complete_dataframe(address):
+    dateparse = lambda x: pd.to_datetime(x, format="%Y-%m-%d %H:%M:00", errors='coerce')
+    data = pd.read_csv(address, index_col="date", parse_dates=['date'], date_parser=dateparse, skipinitialspace=True)
+    return data
+
 def load_stock_market_dataframe(address):
     dateparse = lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='coerce')
     data = pd.read_csv(address,index_col=["date","permno"], parse_dates=['date'], date_parser=dateparse, skipinitialspace=True)
