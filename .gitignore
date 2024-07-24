@@ -1,0 +1,746 @@
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+.ipynb_checkpoints/Untitled1-checkpoint.ipynb
+Appliances energy prediction Data Set/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+Appliances energy prediction Data Set/.ipynb_checkpoints/Untitled1-checkpoint.ipynb
+data/data_pca_with_target.csv
+data/data_pca5_with_target.csv
+data/data_with_target.csv
+data/input generator-method2-Copy1.ipynb
+data/input generator-method2.ipynb
+data/input generator.ipynb
+data/kaggle_dataframes.csv
+data/sample_normalized.csv
+data/sample_raw.csv
+data/SICE_PR_kaggle.ipynb
+data/SICE_PR-Copy1.ipynb
+data/SICE_PR-whole data.ipynb
+data/SICE_PR.ipynb
+data/ssce.ipynb
+data/SVD_SICE_fs.ipynb
+data/test.ipynb
+data/Untitled.ipynb
+data/Untitled1.ipynb
+data/Untitled2.ipynb
+data/X_pca.csv
+data/.ipynb_checkpoints/input generator-checkpoint.ipynb
+data/.ipynb_checkpoints/input generator-method2-checkpoint.ipynb
+data/.ipynb_checkpoints/input generator-method2-Copy1-checkpoint.ipynb
+data/.ipynb_checkpoints/SICE_PR_kaggle-checkpoint.ipynb
+data/.ipynb_checkpoints/SICE_PR-checkpoint.ipynb
+data/.ipynb_checkpoints/SICE_PR-Copy1-checkpoint.ipynb
+data/.ipynb_checkpoints/SICE_PR-whole data-checkpoint.ipynb
+data/.ipynb_checkpoints/ssce-checkpoint.ipynb
+data/.ipynb_checkpoints/SVD_SICE_fs-checkpoint.ipynb
+data/.ipynb_checkpoints/test-checkpoint.ipynb
+data/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+data/.ipynb_checkpoints/Untitled1-checkpoint.ipynb
+data/.ipynb_checkpoints/Untitled2-checkpoint.ipynb
+data/newdata/1962-07-31/input100.txt
+data/newdata/1962-07-31/input300.txt
+data/newdata/1962-07-31/input500.txt
+data/newdata/1962-07-31/input700.txt
+data/newdata/1962-07-31/input1000.txt
+data/newdata/1964-07-31/input100.txt
+data/newdata/1964-07-31/input300.txt
+data/newdata/1964-07-31/input500.txt
+data/newdata/1964-07-31/input700.txt
+data/newdata/1964-07-31/input1000.txt
+data/newdata/1966-07-31/input100.txt
+data/newdata/1966-07-31/input300.txt
+data/newdata/1966-07-31/input500.txt
+data/newdata/1966-07-31/input700.txt
+data/newdata/1966-07-31/input1000.txt
+data/newdata/1968-07-31/input100.txt
+data/newdata/1968-07-31/input300.txt
+data/newdata/1968-07-31/input500.txt
+data/newdata/1968-07-31/input700.txt
+data/newdata/1968-07-31/input1000.txt
+data/newdata/1970-07-31/input100.txt
+data/newdata/1970-07-31/input300.txt
+data/newdata/1970-07-31/input500.txt
+data/newdata/1970-07-31/input700.txt
+data/newdata/1970-07-31/input1000.txt
+data/newdata/1972-07-31/input100.txt
+data/newdata/1972-07-31/input300.txt
+data/newdata/1972-07-31/input500.txt
+data/newdata/1972-07-31/input700.txt
+data/newdata/1972-07-31/input1000.txt
+data/newdata/1974-07-31/input100.txt
+data/newdata/1974-07-31/input300.txt
+data/newdata/1974-07-31/input500.txt
+data/newdata/1974-07-31/input700.txt
+data/newdata/1974-07-31/input1000.txt
+data/newdata/1976-07-31/input100.txt
+data/newdata/1976-07-31/input300.txt
+data/newdata/1976-07-31/input500.txt
+data/newdata/1976-07-31/input700.txt
+data/newdata/1976-07-31/input1000.txt
+data/newdata/1978-07-31/input100.txt
+data/newdata/1978-07-31/input300.txt
+data/newdata/1978-07-31/input500.txt
+data/newdata/1978-07-31/input700.txt
+data/newdata/1978-07-31/input1000.txt
+data/newdata/1980-07-31/input100.txt
+data/newdata/1980-07-31/input300.txt
+data/newdata/1980-07-31/input500.txt
+data/newdata/1980-07-31/input700.txt
+data/newdata/1980-07-31/input1000.txt
+data/newdata/1982-07-31/input100.txt
+data/newdata/1982-07-31/input300.txt
+data/newdata/1982-07-31/input500.txt
+data/newdata/1982-07-31/input700.txt
+data/newdata/1982-07-31/input1000.txt
+data/newdata/1984-07-31/input100.txt
+data/newdata/1984-07-31/input300.txt
+data/newdata/1984-07-31/input500.txt
+data/newdata/1984-07-31/input700.txt
+data/newdata/1984-07-31/input1000.txt
+data/newdata/1986-07-31/input100.txt
+data/newdata/1986-07-31/input300.txt
+data/newdata/1986-07-31/input500.txt
+data/newdata/1986-07-31/input700.txt
+data/newdata/1986-07-31/input1000.txt
+data/newdata/1988-07-31/input100.txt
+data/newdata/1988-07-31/input300.txt
+data/newdata/1988-07-31/input500.txt
+data/newdata/1988-07-31/input700.txt
+data/newdata/1988-07-31/input1000.txt
+data/newdata/1990-07-31/input100.txt
+data/newdata/1990-07-31/input300.txt
+data/newdata/1990-07-31/input500.txt
+data/newdata/1990-07-31/input700.txt
+data/newdata/1990-07-31/input1000.txt
+data/newdata/1992-07-31/input100.txt
+data/newdata/1992-07-31/input300.txt
+data/newdata/1992-07-31/input500.txt
+data/newdata/1992-07-31/input700.txt
+data/newdata/1992-07-31/input1000.txt
+data/newdata/1994-07-31/input100.txt
+data/newdata/1994-07-31/input300.txt
+data/newdata/1994-07-31/input500.txt
+data/newdata/1994-07-31/input700.txt
+data/newdata/1994-07-31/input1000.txt
+data/newdata/1996-07-31/input100.txt
+data/newdata/1996-07-31/input300.txt
+data/newdata/1996-07-31/input500.txt
+data/newdata/1996-07-31/input700.txt
+data/newdata/1996-07-31/input1000.txt
+data/newdata/1998-07-31/input100.txt
+data/newdata/1998-07-31/input300.txt
+data/newdata/1998-07-31/input500.txt
+data/newdata/1998-07-31/input700.txt
+data/newdata/1998-07-31/input1000.txt
+data/newdata/2000-07-31/input100.txt
+data/newdata/2000-07-31/input300.txt
+data/newdata/2000-07-31/input500.txt
+data/newdata/2000-07-31/input700.txt
+data/newdata/2000-07-31/input1000.txt
+data/newdata/2002-07-31/input100.txt
+data/newdata/2002-07-31/input300.txt
+data/newdata/2002-07-31/input500.txt
+data/newdata/2002-07-31/input700.txt
+data/newdata/2002-07-31/input1000.txt
+data/newdata/2004-07-31/input100.txt
+data/newdata/2004-07-31/input300.txt
+data/newdata/2004-07-31/input500.txt
+data/newdata/2004-07-31/input700.txt
+data/newdata/2004-07-31/input1000.txt
+data/newdata/2006-07-31/input100.txt
+data/newdata/2006-07-31/input300.txt
+data/newdata/2006-07-31/input500.txt
+data/newdata/2006-07-31/input700.txt
+data/newdata/2006-07-31/input1000.txt
+data/newdata/2008-07-31/input100.txt
+data/newdata/2008-07-31/input300.txt
+data/newdata/2008-07-31/input500.txt
+data/newdata/2008-07-31/input700.txt
+data/newdata/2008-07-31/input1000.txt
+data/newdata/2010-07-31/input100.txt
+data/newdata/2010-07-31/input300.txt
+data/newdata/2010-07-31/input500.txt
+data/newdata/2010-07-31/input700.txt
+data/newdata/2010-07-31/input1000.txt
+data/newdata/2012-07-31/input100.txt
+data/newdata/2012-07-31/input300.txt
+data/newdata/2012-07-31/input500.txt
+data/newdata/2012-07-31/input700.txt
+data/newdata/2012-07-31/input1000.txt
+data/sim_ssce_multi/1962-07-31/input100.txt
+data/sim_ssce_multi/1962-07-31/input300.txt
+data/sim_ssce_multi/1962-07-31/input500.txt
+data/sim_ssce_multi/1962-07-31/input700.txt
+data/sim_ssce_multi/1962-07-31/input1000.txt
+data/sim_ssce_multi/1964-07-31/input100.txt
+data/sim_ssce_multi/1964-07-31/input300.txt
+data/sim_ssce_multi/1964-07-31/input500.txt
+data/sim_ssce_multi/1964-07-31/input700.txt
+data/sim_ssce_multi/1964-07-31/input1000.txt
+data/sim_ssce_multi/1966-07-31/input100.txt
+data/sim_ssce_multi/1966-07-31/input300.txt
+data/sim_ssce_multi/1966-07-31/input500.txt
+data/sim_ssce_multi/1966-07-31/input700.txt
+data/sim_ssce_multi/1966-07-31/input1000.txt
+data/sim_ssce_multi/1968-07-31/input100.txt
+data/sim_ssce_multi/1968-07-31/input300.txt
+data/sim_ssce_multi/1968-07-31/input500.txt
+data/sim_ssce_multi/1968-07-31/input700.txt
+data/sim_ssce_multi/1968-07-31/input1000.txt
+data/sim_ssce_multi/1970-07-31/input100.txt
+data/sim_ssce_multi/1970-07-31/input300.txt
+data/sim_ssce_multi/1970-07-31/input500.txt
+data/sim_ssce_multi/1970-07-31/input700.txt
+data/sim_ssce_multi/1970-07-31/input1000.txt
+data/sim_ssce_multi/1972-07-31/input100.txt
+data/sim_ssce_multi/1972-07-31/input300.txt
+data/sim_ssce_multi/1972-07-31/input500.txt
+data/sim_ssce_multi/1972-07-31/input700.txt
+data/sim_ssce_multi/1972-07-31/input1000.txt
+data/sim_ssce_multi/1974-07-31/input100.txt
+data/sim_ssce_multi/1974-07-31/input300.txt
+data/sim_ssce_multi/1974-07-31/input500.txt
+data/sim_ssce_multi/1974-07-31/input700.txt
+data/sim_ssce_multi/1974-07-31/input1000.txt
+data/sim_ssce_multi/1976-07-31/input100.txt
+data/sim_ssce_multi/1976-07-31/input300.txt
+data/sim_ssce_multi/1976-07-31/input500.txt
+data/sim_ssce_multi/1976-07-31/input700.txt
+data/sim_ssce_multi/1976-07-31/input1000.txt
+data/sim_ssce_multi/1978-07-31/input100.txt
+data/sim_ssce_multi/1978-07-31/input300.txt
+data/sim_ssce_multi/1978-07-31/input500.txt
+data/sim_ssce_multi/1978-07-31/input700.txt
+data/sim_ssce_multi/1978-07-31/input1000.txt
+data/sim_ssce_multi/1980-07-31/input100.txt
+data/sim_ssce_multi/1980-07-31/input300.txt
+data/sim_ssce_multi/1980-07-31/input500.txt
+data/sim_ssce_multi/1980-07-31/input700.txt
+data/sim_ssce_multi/1980-07-31/input1000.txt
+data/sim_ssce_multi/1982-07-31/input100.txt
+data/sim_ssce_multi/1982-07-31/input300.txt
+data/sim_ssce_multi/1982-07-31/input500.txt
+data/sim_ssce_multi/1982-07-31/input700.txt
+data/sim_ssce_multi/1982-07-31/input1000.txt
+data/sim_ssce_multi/1984-07-31/input100.txt
+data/sim_ssce_multi/1984-07-31/input300.txt
+data/sim_ssce_multi/1984-07-31/input500.txt
+data/sim_ssce_multi/1984-07-31/input700.txt
+data/sim_ssce_multi/1984-07-31/input1000.txt
+data/sim_ssce_multi/1986-07-31/input100.txt
+data/sim_ssce_multi/1986-07-31/input300.txt
+data/sim_ssce_multi/1986-07-31/input500.txt
+data/sim_ssce_multi/1986-07-31/input700.txt
+data/sim_ssce_multi/1986-07-31/input1000.txt
+data/sim_ssce_multi/1988-07-31/input100.txt
+data/sim_ssce_multi/1988-07-31/input300.txt
+data/sim_ssce_multi/1988-07-31/input500.txt
+data/sim_ssce_multi/1988-07-31/input700.txt
+data/sim_ssce_multi/1988-07-31/input1000.txt
+data/sim_ssce_multi/1990-07-31/input100.txt
+data/sim_ssce_multi/1990-07-31/input300.txt
+data/sim_ssce_multi/1990-07-31/input500.txt
+data/sim_ssce_multi/1990-07-31/input700.txt
+data/sim_ssce_multi/1990-07-31/input1000.txt
+data/sim_ssce_multi/1992-07-31/input100.txt
+data/sim_ssce_multi/1992-07-31/input300.txt
+data/sim_ssce_multi/1992-07-31/input500.txt
+data/sim_ssce_multi/1992-07-31/input700.txt
+data/sim_ssce_multi/1992-07-31/input1000.txt
+data/sim_ssce_multi/1994-07-31/input100.txt
+data/sim_ssce_multi/1994-07-31/input300.txt
+data/sim_ssce_multi/1994-07-31/input500.txt
+data/sim_ssce_multi/1994-07-31/input700.txt
+data/sim_ssce_multi/1994-07-31/input1000.txt
+data/sim_ssce_multi/1996-07-31/input100.txt
+data/sim_ssce_multi/1996-07-31/input300.txt
+data/sim_ssce_multi/1996-07-31/input500.txt
+data/sim_ssce_multi/1996-07-31/input700.txt
+data/sim_ssce_multi/1996-07-31/input1000.txt
+data/sim_ssce_multi/1998-07-31/input100.txt
+data/sim_ssce_multi/1998-07-31/input300.txt
+data/sim_ssce_multi/1998-07-31/input500.txt
+data/sim_ssce_multi/1998-07-31/input700.txt
+data/sim_ssce_multi/1998-07-31/input1000.txt
+data/sim_ssce_multi/2000-07-31/input100.txt
+data/sim_ssce_multi/2000-07-31/input300.txt
+data/sim_ssce_multi/2000-07-31/input500.txt
+data/sim_ssce_multi/2000-07-31/input700.txt
+data/sim_ssce_multi/2000-07-31/input1000.txt
+data/sim_ssce_multi/2002-07-31/input100.txt
+data/sim_ssce_multi/2002-07-31/input300.txt
+data/sim_ssce_multi/2002-07-31/input500.txt
+data/sim_ssce_multi/2002-07-31/input700.txt
+data/sim_ssce_multi/2002-07-31/input1000.txt
+data/sim_ssce_multi/2004-07-31/input100.txt
+data/sim_ssce_multi/2004-07-31/input300.txt
+data/sim_ssce_multi/2004-07-31/input500.txt
+data/sim_ssce_multi/2004-07-31/input700.txt
+data/sim_ssce_multi/2004-07-31/input1000.txt
+data/sim_ssce_multi/2006-07-31/input100.txt
+data/sim_ssce_multi/2006-07-31/input300.txt
+data/sim_ssce_multi/2006-07-31/input500.txt
+data/sim_ssce_multi/2006-07-31/input700.txt
+data/sim_ssce_multi/2006-07-31/input1000.txt
+data/sim_ssce_multi/2008-07-31/input100.txt
+data/sim_ssce_multi/2008-07-31/input300.txt
+data/sim_ssce_multi/2008-07-31/input500.txt
+data/sim_ssce_multi/2008-07-31/input700.txt
+data/sim_ssce_multi/2008-07-31/input1000.txt
+data/sim_ssce_multi/2010-07-31/input100.txt
+data/sim_ssce_multi/2010-07-31/input300.txt
+data/sim_ssce_multi/2010-07-31/input500.txt
+data/sim_ssce_multi/2010-07-31/input700.txt
+data/sim_ssce_multi/2010-07-31/input1000.txt
+data/sim_ssce_multi/2012-07-31/input100.txt
+data/sim_ssce_multi/2012-07-31/input300.txt
+data/sim_ssce_multi/2012-07-31/input500.txt
+data/sim_ssce_multi/2012-07-31/input700.txt
+data/sim_ssce_multi/2012-07-31/input1000.txt
+temporal-pagerank/.ipynb_checkpoints/new_PR-checkpoint.ipynb
+temporal-pagerank/.ipynb_checkpoints/test_personalization-checkpoint.ipynb
+temporal-pagerank/allutils/__pycache__/__init__.cpython-38.pyc
+temporal-pagerank/allutils/__pycache__/general_PR.cpython-38.pyc
+temporal-pagerank/allutils/__pycache__/graph_generator.cpython-38.pyc
+temporal-pagerank/allutils/__pycache__/utils_experiments.cpython-38.pyc
+temporal-pagerank/Data/input files/1962-07-31/input100.txt
+temporal-pagerank/Data/input files/1962-07-31/input300.txt
+temporal-pagerank/Data/input files/1962-07-31/input500.txt
+temporal-pagerank/Data/input files/1962-07-31/input700.txt
+temporal-pagerank/Data/input files/1962-07-31/input1000.txt
+temporal-pagerank/Data/input files/1964-07-31/input100.txt
+temporal-pagerank/Data/input files/1964-07-31/input300.txt
+temporal-pagerank/Data/input files/1964-07-31/input500.txt
+temporal-pagerank/Data/input files/1964-07-31/input700.txt
+temporal-pagerank/Data/input files/1964-07-31/input1000.txt
+temporal-pagerank/Data/input files/1966-07-31/input100.txt
+temporal-pagerank/Data/input files/1966-07-31/input300.txt
+temporal-pagerank/Data/input files/1966-07-31/input500.txt
+temporal-pagerank/Data/input files/1966-07-31/input700.txt
+temporal-pagerank/Data/input files/1966-07-31/input1000.txt
+temporal-pagerank/Data/input files/1968-07-31/input100.txt
+temporal-pagerank/Data/input files/1968-07-31/input300.txt
+temporal-pagerank/Data/input files/1968-07-31/input500.txt
+temporal-pagerank/Data/input files/1968-07-31/input700.txt
+temporal-pagerank/Data/input files/1968-07-31/input1000.txt
+temporal-pagerank/Data/input files/1970-07-31/input100.txt
+temporal-pagerank/Data/input files/1970-07-31/input300.txt
+temporal-pagerank/Data/input files/1970-07-31/input500.txt
+temporal-pagerank/Data/input files/1970-07-31/input700.txt
+temporal-pagerank/Data/input files/1970-07-31/input1000.txt
+temporal-pagerank/Data/input files/1972-07-31/input100.txt
+temporal-pagerank/Data/input files/1972-07-31/input300.txt
+temporal-pagerank/Data/input files/1972-07-31/input500.txt
+temporal-pagerank/Data/input files/1972-07-31/input700.txt
+temporal-pagerank/Data/input files/1972-07-31/input1000.txt
+temporal-pagerank/Data/input files/1974-07-31/input100.txt
+temporal-pagerank/Data/input files/1974-07-31/input300.txt
+temporal-pagerank/Data/input files/1974-07-31/input500.txt
+temporal-pagerank/Data/input files/1974-07-31/input700.txt
+temporal-pagerank/Data/input files/1974-07-31/input1000.txt
+temporal-pagerank/Data/input files/1976-07-31/input100.txt
+temporal-pagerank/Data/input files/1976-07-31/input300.txt
+temporal-pagerank/Data/input files/1976-07-31/input500.txt
+temporal-pagerank/Data/input files/1976-07-31/input700.txt
+temporal-pagerank/Data/input files/1976-07-31/input1000.txt
+temporal-pagerank/Data/input files/1978-07-31/input100.txt
+temporal-pagerank/Data/input files/1978-07-31/input300.txt
+temporal-pagerank/Data/input files/1978-07-31/input500.txt
+temporal-pagerank/Data/input files/1978-07-31/input700.txt
+temporal-pagerank/Data/input files/1978-07-31/input1000.txt
+temporal-pagerank/Data/input files/1980-07-31/input100.txt
+temporal-pagerank/Data/input files/1980-07-31/input300.txt
+temporal-pagerank/Data/input files/1980-07-31/input500.txt
+temporal-pagerank/Data/input files/1980-07-31/input700.txt
+temporal-pagerank/Data/input files/1980-07-31/input1000.txt
+temporal-pagerank/Data/input files/1982-07-31/input100.txt
+temporal-pagerank/Data/input files/1982-07-31/input300.txt
+temporal-pagerank/Data/input files/1982-07-31/input500.txt
+temporal-pagerank/Data/input files/1982-07-31/input700.txt
+temporal-pagerank/Data/input files/1982-07-31/input1000.txt
+temporal-pagerank/Data/input files/1984-07-31/input100.txt
+temporal-pagerank/Data/input files/1984-07-31/input300.txt
+temporal-pagerank/Data/input files/1984-07-31/input500.txt
+temporal-pagerank/Data/input files/1984-07-31/input700.txt
+temporal-pagerank/Data/input files/1984-07-31/input1000.txt
+temporal-pagerank/Data/input files/1986-07-31/input100.txt
+temporal-pagerank/Data/input files/1986-07-31/input300.txt
+temporal-pagerank/Data/input files/1986-07-31/input500.txt
+temporal-pagerank/Data/input files/1986-07-31/input700.txt
+temporal-pagerank/Data/input files/1986-07-31/input1000.txt
+temporal-pagerank/Data/input files/1988-07-31/input100.txt
+temporal-pagerank/Data/input files/1988-07-31/input300.txt
+temporal-pagerank/Data/input files/1988-07-31/input500.txt
+temporal-pagerank/Data/input files/1988-07-31/input700.txt
+temporal-pagerank/Data/input files/1988-07-31/input1000.txt
+temporal-pagerank/Data/input files/1990-07-31/input100.txt
+temporal-pagerank/Data/input files/1990-07-31/input300.txt
+temporal-pagerank/Data/input files/1990-07-31/input500.txt
+temporal-pagerank/Data/input files/1990-07-31/input700.txt
+temporal-pagerank/Data/input files/1990-07-31/input1000.txt
+temporal-pagerank/Data/input files/1992-07-31/input100.txt
+temporal-pagerank/Data/input files/1992-07-31/input300.txt
+temporal-pagerank/Data/input files/1992-07-31/input500.txt
+temporal-pagerank/Data/input files/1992-07-31/input700.txt
+temporal-pagerank/Data/input files/1992-07-31/input1000.txt
+temporal-pagerank/Data/input files/1994-07-31/input100.txt
+temporal-pagerank/Data/input files/1994-07-31/input300.txt
+temporal-pagerank/Data/input files/1994-07-31/input500.txt
+temporal-pagerank/Data/input files/1994-07-31/input700.txt
+temporal-pagerank/Data/input files/1994-07-31/input1000.txt
+temporal-pagerank/Data/input files/1996-07-31/input100.txt
+temporal-pagerank/Data/input files/1996-07-31/input300.txt
+temporal-pagerank/Data/input files/1996-07-31/input500.txt
+temporal-pagerank/Data/input files/1996-07-31/input700.txt
+temporal-pagerank/Data/input files/1996-07-31/input1000.txt
+temporal-pagerank/Data/input files/1998-07-31/input100.txt
+temporal-pagerank/Data/input files/1998-07-31/input300.txt
+temporal-pagerank/Data/input files/1998-07-31/input500.txt
+temporal-pagerank/Data/input files/1998-07-31/input700.txt
+temporal-pagerank/Data/input files/1998-07-31/input1000.txt
+temporal-pagerank/Data/input files/2000-07-31/input100.txt
+temporal-pagerank/Data/input files/2000-07-31/input300.txt
+temporal-pagerank/Data/input files/2000-07-31/input500.txt
+temporal-pagerank/Data/input files/2000-07-31/input700.txt
+temporal-pagerank/Data/input files/2000-07-31/input1000.txt
+temporal-pagerank/Data/input files/2002-07-31/input100.txt
+temporal-pagerank/Data/input files/2002-07-31/input300.txt
+temporal-pagerank/Data/input files/2002-07-31/input500.txt
+temporal-pagerank/Data/input files/2002-07-31/input700.txt
+temporal-pagerank/Data/input files/2002-07-31/input1000.txt
+temporal-pagerank/Data/input files/2004-07-31/input100.txt
+temporal-pagerank/Data/input files/2004-07-31/input300.txt
+temporal-pagerank/Data/input files/2004-07-31/input500.txt
+temporal-pagerank/Data/input files/2004-07-31/input700.txt
+temporal-pagerank/Data/input files/2004-07-31/input1000.txt
+temporal-pagerank/Data/input files/2006-07-31/input100.txt
+temporal-pagerank/Data/input files/2006-07-31/input300.txt
+temporal-pagerank/Data/input files/2006-07-31/input500.txt
+temporal-pagerank/Data/input files/2006-07-31/input700.txt
+temporal-pagerank/Data/input files/2006-07-31/input1000.txt
+temporal-pagerank/Data/input files/2008-07-31/input100.txt
+temporal-pagerank/Data/input files/2008-07-31/input300.txt
+temporal-pagerank/Data/input files/2008-07-31/input500.txt
+temporal-pagerank/Data/input files/2008-07-31/input700.txt
+temporal-pagerank/Data/input files/2008-07-31/input1000.txt
+temporal-pagerank/Data/input files/2010-07-31/input100.txt
+temporal-pagerank/Data/input files/2010-07-31/input300.txt
+temporal-pagerank/Data/input files/2010-07-31/input500.txt
+temporal-pagerank/Data/input files/2010-07-31/input700.txt
+temporal-pagerank/Data/input files/2010-07-31/input1000.txt
+temporal-pagerank/Data/input files/2012-07-31 to 2014-04-30/input100.txt
+temporal-pagerank/Data/input files/2012-07-31 to 2014-04-30/input300.txt
+temporal-pagerank/Data/input files/2012-07-31 to 2014-04-30/input500.txt
+temporal-pagerank/Data/input files/2012-07-31 to 2014-04-30/input700.txt
+temporal-pagerank/Data/input files/2012-07-31 to 2014-04-30/input1000.txt
+temporal-pagerank/Data/sim7/1962-07-31/input100.txt
+temporal-pagerank/Data/sim7/1962-07-31/input300.txt
+temporal-pagerank/Data/sim7/1962-07-31/input500.txt
+temporal-pagerank/Data/sim7/1962-07-31/input700.txt
+temporal-pagerank/Data/sim7/1962-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1964-07-31/input100.txt
+temporal-pagerank/Data/sim7/1964-07-31/input300.txt
+temporal-pagerank/Data/sim7/1964-07-31/input500.txt
+temporal-pagerank/Data/sim7/1964-07-31/input700.txt
+temporal-pagerank/Data/sim7/1964-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1966-07-31/input100.txt
+temporal-pagerank/Data/sim7/1966-07-31/input300.txt
+temporal-pagerank/Data/sim7/1966-07-31/input500.txt
+temporal-pagerank/Data/sim7/1966-07-31/input700.txt
+temporal-pagerank/Data/sim7/1966-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1968-07-31/input100.txt
+temporal-pagerank/Data/sim7/1968-07-31/input300.txt
+temporal-pagerank/Data/sim7/1968-07-31/input500.txt
+temporal-pagerank/Data/sim7/1968-07-31/input700.txt
+temporal-pagerank/Data/sim7/1968-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1970-07-31/input100.txt
+temporal-pagerank/Data/sim7/1970-07-31/input300.txt
+temporal-pagerank/Data/sim7/1970-07-31/input500.txt
+temporal-pagerank/Data/sim7/1970-07-31/input700.txt
+temporal-pagerank/Data/sim7/1970-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1972-07-31/input100.txt
+temporal-pagerank/Data/sim7/1972-07-31/input300.txt
+temporal-pagerank/Data/sim7/1972-07-31/input500.txt
+temporal-pagerank/Data/sim7/1972-07-31/input700.txt
+temporal-pagerank/Data/sim7/1972-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1974-07-31/input100.txt
+temporal-pagerank/Data/sim7/1974-07-31/input300.txt
+temporal-pagerank/Data/sim7/1974-07-31/input500.txt
+temporal-pagerank/Data/sim7/1974-07-31/input700.txt
+temporal-pagerank/Data/sim7/1974-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1976-07-31/input100.txt
+temporal-pagerank/Data/sim7/1976-07-31/input300.txt
+temporal-pagerank/Data/sim7/1976-07-31/input500.txt
+temporal-pagerank/Data/sim7/1976-07-31/input700.txt
+temporal-pagerank/Data/sim7/1976-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1978-07-31/input100.txt
+temporal-pagerank/Data/sim7/1978-07-31/input300.txt
+temporal-pagerank/Data/sim7/1978-07-31/input500.txt
+temporal-pagerank/Data/sim7/1978-07-31/input700.txt
+temporal-pagerank/Data/sim7/1978-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1980-07-31/input100.txt
+temporal-pagerank/Data/sim7/1980-07-31/input300.txt
+temporal-pagerank/Data/sim7/1980-07-31/input500.txt
+temporal-pagerank/Data/sim7/1980-07-31/input700.txt
+temporal-pagerank/Data/sim7/1980-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1982-07-31/input100.txt
+temporal-pagerank/Data/sim7/1982-07-31/input300.txt
+temporal-pagerank/Data/sim7/1982-07-31/input500.txt
+temporal-pagerank/Data/sim7/1982-07-31/input700.txt
+temporal-pagerank/Data/sim7/1982-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1984-07-31/input100.txt
+temporal-pagerank/Data/sim7/1984-07-31/input300.txt
+temporal-pagerank/Data/sim7/1984-07-31/input500.txt
+temporal-pagerank/Data/sim7/1984-07-31/input700.txt
+temporal-pagerank/Data/sim7/1984-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1986-07-31/input100.txt
+temporal-pagerank/Data/sim7/1986-07-31/input300.txt
+temporal-pagerank/Data/sim7/1986-07-31/input500.txt
+temporal-pagerank/Data/sim7/1986-07-31/input700.txt
+temporal-pagerank/Data/sim7/1986-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1988-07-31/input100.txt
+temporal-pagerank/Data/sim7/1988-07-31/input300.txt
+temporal-pagerank/Data/sim7/1988-07-31/input500.txt
+temporal-pagerank/Data/sim7/1988-07-31/input700.txt
+temporal-pagerank/Data/sim7/1988-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1990-07-31/input100.txt
+temporal-pagerank/Data/sim7/1990-07-31/input300.txt
+temporal-pagerank/Data/sim7/1990-07-31/input500.txt
+temporal-pagerank/Data/sim7/1990-07-31/input700.txt
+temporal-pagerank/Data/sim7/1990-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1992-07-31/input100.txt
+temporal-pagerank/Data/sim7/1992-07-31/input300.txt
+temporal-pagerank/Data/sim7/1992-07-31/input500.txt
+temporal-pagerank/Data/sim7/1992-07-31/input700.txt
+temporal-pagerank/Data/sim7/1992-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1994-07-31/input100.txt
+temporal-pagerank/Data/sim7/1994-07-31/input300.txt
+temporal-pagerank/Data/sim7/1994-07-31/input500.txt
+temporal-pagerank/Data/sim7/1994-07-31/input700.txt
+temporal-pagerank/Data/sim7/1994-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1996-07-31/input100.txt
+temporal-pagerank/Data/sim7/1996-07-31/input300.txt
+temporal-pagerank/Data/sim7/1996-07-31/input500.txt
+temporal-pagerank/Data/sim7/1996-07-31/input700.txt
+temporal-pagerank/Data/sim7/1996-07-31/input1000.txt
+temporal-pagerank/Data/sim7/1998-07-31/input100.txt
+temporal-pagerank/Data/sim7/1998-07-31/input300.txt
+temporal-pagerank/Data/sim7/1998-07-31/input500.txt
+temporal-pagerank/Data/sim7/1998-07-31/input700.txt
+temporal-pagerank/Data/sim7/1998-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2000-07-31/input100.txt
+temporal-pagerank/Data/sim7/2000-07-31/input300.txt
+temporal-pagerank/Data/sim7/2000-07-31/input500.txt
+temporal-pagerank/Data/sim7/2000-07-31/input700.txt
+temporal-pagerank/Data/sim7/2000-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2002-07-31/input100.txt
+temporal-pagerank/Data/sim7/2002-07-31/input300.txt
+temporal-pagerank/Data/sim7/2002-07-31/input500.txt
+temporal-pagerank/Data/sim7/2002-07-31/input700.txt
+temporal-pagerank/Data/sim7/2002-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2004-07-31/input100.txt
+temporal-pagerank/Data/sim7/2004-07-31/input300.txt
+temporal-pagerank/Data/sim7/2004-07-31/input500.txt
+temporal-pagerank/Data/sim7/2004-07-31/input700.txt
+temporal-pagerank/Data/sim7/2004-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2006-07-31/input100.txt
+temporal-pagerank/Data/sim7/2006-07-31/input300.txt
+temporal-pagerank/Data/sim7/2006-07-31/input500.txt
+temporal-pagerank/Data/sim7/2006-07-31/input700.txt
+temporal-pagerank/Data/sim7/2006-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2008-07-31/input100.txt
+temporal-pagerank/Data/sim7/2008-07-31/input300.txt
+temporal-pagerank/Data/sim7/2008-07-31/input500.txt
+temporal-pagerank/Data/sim7/2008-07-31/input700.txt
+temporal-pagerank/Data/sim7/2008-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2010-07-31/input100.txt
+temporal-pagerank/Data/sim7/2010-07-31/input300.txt
+temporal-pagerank/Data/sim7/2010-07-31/input500.txt
+temporal-pagerank/Data/sim7/2010-07-31/input700.txt
+temporal-pagerank/Data/sim7/2010-07-31/input1000.txt
+temporal-pagerank/Data/sim7/2012-07-31/input100.txt
+temporal-pagerank/Data/sim7/2012-07-31/input300.txt
+temporal-pagerank/Data/sim7/2012-07-31/input500.txt
+temporal-pagerank/Data/sim7/2012-07-31/input700.txt
+temporal-pagerank/Data/sim7/2012-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1962-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1962-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1962-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1962-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1962-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1964-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1964-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1964-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1964-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1964-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1966-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1966-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1966-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1966-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1966-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1968-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1968-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1968-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1968-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1968-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1970-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1970-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1970-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1970-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1970-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1972-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1972-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1972-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1972-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1972-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1974-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1974-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1974-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1974-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1974-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1976-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1976-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1976-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1976-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1976-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1978-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1978-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1978-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1978-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1978-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1980-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1980-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1980-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1980-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1980-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1982-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1982-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1982-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1982-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1982-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1984-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1984-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1984-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1984-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1984-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1986-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1986-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1986-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1986-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1986-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1988-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1988-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1988-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1988-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1988-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1990-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1990-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1990-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1990-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1990-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1992-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1992-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1992-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1992-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1992-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1994-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1994-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1994-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1994-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1994-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1996-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1996-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1996-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1996-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1996-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/1998-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/1998-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/1998-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/1998-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/1998-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2000-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2000-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2000-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2000-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2000-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2002-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2002-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2002-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2002-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2002-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2004-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2004-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2004-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2004-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2004-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2006-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2006-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2006-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2006-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2006-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2008-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2008-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2008-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2008-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2008-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2010-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2010-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2010-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2010-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2010-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce/2012-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce/2012-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce/2012-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce/2012-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce/2012-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1962-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1962-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1962-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1962-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1962-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1968-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1968-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1968-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1968-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1968-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1974-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1974-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1974-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1974-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1974-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1980-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1980-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1980-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1980-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1980-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1986-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1986-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1986-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1986-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1986-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1992-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1992-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1992-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1992-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1992-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/1998-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/1998-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/1998-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/1998-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/1998-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/2004-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/2004-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/2004-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/2004-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/2004-07-31/input1000.txt
+temporal-pagerank/Data/sim_ssce_6y/2010-07-31/input100.txt
+temporal-pagerank/Data/sim_ssce_6y/2010-07-31/input300.txt
+temporal-pagerank/Data/sim_ssce_6y/2010-07-31/input500.txt
+temporal-pagerank/Data/sim_ssce_6y/2010-07-31/input700.txt
+temporal-pagerank/Data/sim_ssce_6y/2010-07-31/input1000.txt
+tensorized /.ipynb_checkpoints/HOSVD-test-checkpoint.ipynb
+tensorized /.ipynb_checkpoints/HOSVD-with energy-checkpoint.ipynb
+tensorized /.ipynb_checkpoints/QR-checkpoint.ipynb
+tensorized /.ipynb_checkpoints/svd on frequency space-checkpoint.ipynb
+database/appliances+energy+prediction.zip
+database/gas+sensor+array+under+dynamic+gas+mixtures.zip
+database/gas+sensor+array+temperature+modulation.zip
+database
