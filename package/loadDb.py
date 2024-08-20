@@ -1,7 +1,24 @@
 import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
+def load_dynamic_gas_mixtures(address,filename):
+    date_str = "20200101"  # Extract the "20160930" part from the file name
 
+    # Convert the extracted date to a Timestamp object
+    start_time = pd.Timestamp(date_str)
+
+    # Read the CSV file without parsing the "Time_(seconds)" column as a date
+    data = pd.read_csv(address + filename, skipinitialspace=True)
+
+    # Convert the "Time_(seconds)" column to a timedelta (time difference)
+    data['Time_(seconds)'] = pd.to_timedelta(data['Time_(seconds)'], unit='s')
+
+    # Create the actual datetime by adding the timedelta to the start_time
+    data['Time_(seconds)'] = start_time + data['Time_(seconds)']
+
+    # Optionally, set the new 'Datetime' column as the index of the DataFrame
+    data.set_index('Time_(seconds)', inplace=True)
+    return data
 def load_temperature_modulation(address,filename)
     date_str = filename[:8]  # Extract the "20160930" part from the file name
 
