@@ -2,6 +2,24 @@ import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
 
+def load_temperature_modulation(address,filename)
+    date_str = filename[:8]  # Extract the "20160930" part from the file name
+
+    # Convert the extracted date to a Timestamp object
+    start_time = pd.Timestamp(date_str)
+
+    # Read the CSV file without parsing the "Time (s)" column as a date
+    data = pd.read_csv(address + "//" + filename, skipinitialspace=True)
+
+    # Convert the "Time (s)" column to a timedelta (time difference)
+    data['Time (s)'] = pd.to_timedelta(data['Time (s)'], unit='s')
+
+    # Create the actual datetime by adding the timedelta to the start_time
+    data['Time (s)'] = start_time + data['Time (s)']
+
+    # Optionally, set the new 'Datetime' column as the index of the DataFrame
+    data.set_index('Time (s)', inplace=True)
+    return data
 
 def load_energydata_complete_dataframe(address):
     dateparse = lambda x: pd.to_datetime(x, format="%Y-%m-%d %H:%M:00", errors='coerce')
