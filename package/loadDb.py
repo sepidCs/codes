@@ -19,7 +19,7 @@ def load_dynamic_gas_mixtures(address,filename):
     # Optionally, set the new 'Datetime' column as the index of the DataFrame
     data.set_index('Time_(seconds)', inplace=True)
     return data
-def load_temperature_modulation(address,filename)
+def load_temperature_modulation(address,filename):
     date_str = filename[:8]  # Extract the "20160930" part from the file name
 
     # Convert the extracted date to a Timestamp object
