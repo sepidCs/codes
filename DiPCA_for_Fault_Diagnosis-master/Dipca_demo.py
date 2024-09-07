@@ -42,7 +42,7 @@ def pc_number(X):
             i = i + 1
     return i
 
-def DiPCA(X, s, a):
+def DiPCA1(X, s, a):
     n = X.shape[0]
     m = X.shape[1]
     N = n - s
