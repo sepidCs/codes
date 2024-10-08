@@ -129,7 +129,7 @@ def pc_number(X):
     else:
         i = 0
         var = 0
-        while var < 1*sum(S*S): #0.85
+        while var < 0.85*sum(S*S): #0.85
             var = var+S[i]*S[i]
             i = i + 1
     return i
