@@ -210,7 +210,7 @@ def weighted_DiGraph(arr):
     return G
 
 
-def flowPR(n_nodes,p_prime_nodes, stream, RS, current, iters=1000000, alpha=0.85, beta=0.001, gamma=0.9999, normalization=1.0, padding=0):
+def flowPR(n_nodes,p_prime_nodes, stream, RS, current, iters=10000, alpha=0.85, beta=0.001, gamma=0.9999, normalization=1.0, padding=0):
     if beta == 1.0:
         beta = 0.0
 

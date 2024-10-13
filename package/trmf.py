@@ -116,6 +116,7 @@ class trmf:
             self.F = np.random.randn(self.N, self.K)
             self.X = np.random.randn(self.K, self.T)
 
+
         for _ in range(self.max_iter):
             self._update_F(step=self.F_step)
             self._update_X(step=self.X_step)
@@ -291,6 +292,11 @@ class trmf:
             X_l = self.X * W_l
             z_1 = self.X - np.roll(X_l, lag, axis=1)
             z_1[:, :max(self.lags)] = 0.
+
+            # if np.any(np.isnan(self.X)) or np.any(np.isinf(self.X)):
+                # print("Invalid values in self.X")
+                # print("X=",self.X)
+
             z_2 = - (np.roll(self.X, -lag, axis=1) - X_l) * W_l
             z_2[:, -lag:] = 0.
 
@@ -311,7 +317,8 @@ class trmf:
         self : objects
             Returns self.
         """
-
+        self.X = self.X.astype(np.float64)
+        self.W = self.W.astype(np.float64)
         grad = np.zeros((self.K, self.L))
         for l in range(self.L):
             lag = self.lags[l]
@@ -321,6 +328,10 @@ class trmf:
             z_1[:, :max(self.lags)] = 0.
             z_2 = - (z_1 * np.roll(self.X, lag, axis=1)).sum(axis=1)
             grad[:, l] = z_2
+            
+            print(f"Max value of self.X: {np.max(self.X)}")
+            print(f"Max value of W_l: {np.max(W_l)}")
+            
         return grad + self.W * 2 * self.lambda_w / self.lambda_x -\
                self.alpha * 2 * (1 - self.W.sum(axis=1)).repeat(self.L).reshape(self.W.shape)
 

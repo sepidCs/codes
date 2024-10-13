@@ -20,7 +20,11 @@ def xgboost_reg_error(data_without_target,target,testSize):
     model.fit(x_train, y_train)
     predictions = model.predict(x_test)
     # rmse=np.sqrt(metrics.mean_squared_error(y_test, predictions))
+    
+    ##########????????????????
     rmse=np.linalg.norm(predictions-y_test)/np.linalg.norm(y_test)
+    # rmse = np.sqrt(np.mean((predictions - y_test) ** 2))
+    # print(y_test)
     # print("MSE  is:{:.2f}".format(pca_mse))
     return rmse
 

@@ -1,5 +1,7 @@
+import pickle
 import numpy as np
 import scipy.stats
+from sklearn.preprocessing import StandardScaler
 
 # def autos(X):
 #     m = X.shape[0]
@@ -119,20 +121,35 @@ def autos(X):
     sigma = np.std(X, axis=0, ddof=1)
     for i in range(n):
         a = np.ones(m) * mu[i]
+        # print("sigma",sigma[i])
+        # print(X[:, i],a,sigma[i])
         X_m[:, i] = (X[:, i]-a) / sigma[i]
     return X_m, mu, sigma
 
 def pc_number(X):
-    U, S, V = np.linalg.svd(X)
-    if S.shape[0] == 1:
-        i = 1
-    else:
-        i = 0
-        var = 0
-        while var < 0.85*sum(S*S): #0.85
-            var = var+S[i]*S[i]
-            i = i + 1
-    return i
+    # #########khodam ezafe kardam
+    # scaler = StandardScaler()
+    # X_scaled = scaler.fit_transform(X)
+    # ########ta inja
+    try:
+        U, S, V = np.linalg.svd(X) #X_scaled
+        if S.shape[0] == 1:
+            i = 1
+        else:
+            i = 0
+            var = 0
+            while var < 0.85*sum(S*S): #0.85
+                var = var+S[i]*S[i]
+                i = i + 1
+        return i
+    except:
+                    
+        # Save X to a pickle file for later inspection
+        with open('X.pkl', 'wb') as file:
+            pickle.dump(X, file)
+        print("The variable X has been saved to 'X.pkl'.")
+        print(X)
+        raise 
 
 def DiPCA1(X, s, a):
     n = X.shape[0]
@@ -211,6 +228,19 @@ def DiPCA1(X, s, a):
         Xe = Xe-np.dot(np.dot(TT, Theta), P.T)
     a_s = pc_number(Xe)
     _, Ss, Ps = np.linalg.svd(Xe)
+    # print(Ss)
+    # print("............")
+    # print(Ss[0:a_s])
+    # print("............")
+    
+    # print(np.diag(Ss[0:a_s] ** 2))
+    # print("............")
+    # print((N - 1))
+    # print(a_s,"............")
+    
+    # print(Ss[a_s:m])
+    # print(Ss[a_s:])
+    # print(len(Ss))
     Ps = Ps.T
     Ps = Ps[:,0:a_s]
     Ts = np.dot(Xe, Ps)

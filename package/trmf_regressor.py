@@ -53,7 +53,7 @@ def get_slice(data, T_train, T_test, T_start, normalize=True):
     
     return train, test
 
-def trmf_reg_error(data_without_target,target,testSize,lags = [1,25],K = 4,lambda_f = 1.,lambda_x = 1.,lambda_w = 1.,alpha = 1000.,eta = 1., max_iteration=10000):
+def trmf_reg_error(data_without_target,target,testSize,lags = [1,25],K = 4,lambda_f = 1.,lambda_x = 1.,lambda_w = 1.,alpha = 1000.,eta = 1., max_iteration=1000):
     data_without_target["target"]=target.values
     # display(data_without_target)
 
