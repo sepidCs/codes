@@ -1,0 +1,118 @@
+100644 blob dc4f92fa5453f313e6ad2b7854f3c10995cafacb   37406	.gitignore
+100644 blob db194bbb0447f3b60d9e5a66d7ea763ad3e7b4ad   17306	DiPCA_for_Fault_Diagnosis-master/DiPCA.ipynb
+100644 blob 34d5075d6ce0565ea81f435f1c4e1bdd54a0b63c    8545	DiPCA_for_Fault_Diagnosis-master/Dipca_demo.py
+100644 blob dbecac4d949526d2c6252bb5c05400eab97447f7     329	DiPCA_for_Fault_Diagnosis-master/REMDME.md
+100644 blob d7ae10cfa604a65c65464ffbb3520ff2c0665ecc   81018	DiPCA_for_Fault_Diagnosis-master/data/d00.mat
+100644 blob 4c2c8d99a506be243b0bcd17da8285b301349a06  152453	DiPCA_for_Fault_Diagnosis-master/data/d05te.mat
+100644 blob bd94328b979fc4e0a9ca920a660d3bdbbf7ae936  656091	DiPCA_for_Fault_Diagnosis-master/dipca.pdf
+100644 blob edb51cae1135fb67e7fdddd94e991c601d7fee5b      80	DiPCA_for_Fault_Diagnosis-master/requirements.txt
+100644 blob 327f4769e624e8f5d7f9cbafaf61c7c9c87962b2    1928	IPCA/.ipynb_checkpoints/main-checkpoint.ipynb
+100644 blob daceff33954685279013bcfea0feead540de79df    3725	IPCA/main.ipynb
+100644 blob d766919ae159c51c474f51af08b2290e6c0a2e5a   21790	IPCA/test.ipynb
+100644 blob 83988acd3722f30abf4bba8bcc646707d5d4e85f    1889	SICE/generate_pca_file.ipynb
+100644 blob 5e0b723e2df3932130d13037a5545a8e12bf952f  279003	SICE/main.ipynb
+100644 blob 303e23e2dbd96d1772f33c03dc50e8b1c21332c4    3003	TRMF/Forecast.py
+100644 blob a7c9be82c8ed30c4ebf95b6ac1358bd2dd325de9     458	TRMF/Metrics.py
+100644 blob 4ef581bc760b4d0cb3edc5c895093a4fde29f905    5157	TRMF/README.md
+100644 blob 712eb2b81d1580fd6ce13a7242b202656cc8b423    1677	TRMF/RollingCV.py
+100644 blob 1c936f7280659f792455feb00a6fd3a4d67f5242    1080	TRMF/__MACOSX/._LD2011_2014.txt
+100644 blob f8ee96c688c3465b2cab797bab128923c3daba65   53529	TRMF/experiments_crypto.ipynb
+100644 blob 2977a643e48300f5cf9e941ca055e1f0913aa70c  132990	TRMF/experiments_electricity.ipynb
+100644 blob 150e8fbd9a740dacb4665dc63cc627f358ba2e3c   78133	TRMF/experiments_missings.ipynb
+100644 blob c69371121cba80483ae065c38bdbaec5074befff  209006	TRMF/experiments_synthetic.ipynb
+100644 blob 3339727f37f13e26f08a853c1c4e252a11c1d00c  258259	TRMF/predict_trmf_X.ipynb
+100644 blob 264ded57105da027e9c4d6e39307a0133b8ac254    1974	TRMF/synthetic_data.py
+100644 blob 210f74bbaead5647aba622cf82dd5927b154685d  224860	TRMF/test.ipynb
+100644 blob d2f5177526bbba71cb7a88804952a91835d62791    8307	TRMF/trmf.py
+100644 blob 2a9a7227fb279c44a0c62039fa7384cd72ad381f    1988	TRMF/trmf_regressor.py
+100644 blob 72af78ab78f6eb7f11530054eecef89f31e5a8df  606553	TRMF/workbook.ipynb
+100644 blob 9244e1e91fa5700001b772709087944ca2dd74f2   58108	Temporal-PR/.ipynb_checkpoints/new_PR-checkpoint.ipynb
+100644 blob 7c63693c35ece3c2bd3f70e28f8549d5f406301a    6915	Temporal-PR/.ipynb_checkpoints/test_personalization-checkpoint.ipynb
+100644 blob 6181a280b3e283d3beccf8775fdaa3aaee6d5ef6  545332	Temporal-PR/main.ipynb
+100644 blob 75ac9e59ee68d358ccd43c91526a88fe18e19850  748844	Temporal-PR/temporal-pagerank.pdf
+100644 blob 5197a9ce6178f4a173a44c2e36c72c722a55ae98 1687312	Temporal-PR/word/compare.docx
+100644 blob 182e42e060d41f10bf802bd05ed4034f3a8f5cfd  156784	Temporal-PR/word/svd compare.docx
+100644 blob aa1f653ad6eeb24f21d0da2847fee6fde72c0b4b  421637	"Temporal-PR/word/\331\206\330\252\330\247\333\214\330\254 \330\250\330\261\330\247\333\214 \330\257\330\247\330\257\331\207 \330\247\330\265\331\204\333\214.docx"
+100644 blob fd3aef7a75ed299b8aee67eb8529719b82bf8c19     162	"Temporal-PR/~$\330\247\333\214\330\254 \330\250\330\261\330\247\333\214 \330\257\330\247\330\257\331\207 \330\247\330\265\331\204\333\214.docx"
+100644 blob 4843d82fff908ca3d8a7a3296dad76ebf3dfa043   49534	Temporal-PR/~WRL2133.tmp
+100644 blob c00b17d199b4ecf1e0be603b335f843e2a0c08ad    1744	experiments/X.pkl
+100644 blob ad664b75ec4516af6d5a6eca878a2636a5482689    8529	experiments/appliances+energy+prediction/energydata_complete.csv/0.85appliances+energy+prediction/RMSE-appliances+energy+prediction_0.85_iters_staticpr=10000.xlsx
+100644 blob 6b7fa1d73f898bf960d86b50cb397f117091de32   51025	experiments/appliances+energy+prediction/energydata_complete.csv/0.85appliances+energy+prediction/plot_RMSE-appliances+energy+prediction_0.85_iters_staticpr=10000.png
+100644 blob 8277f2888d81cab9c0756d82210826f1307c83bd   46882	experiments/appliances+energy+prediction/energydata_complete.csv/0.85appliances+energy+prediction/plot_RMSE_Summary-appliances+energy+prediction_0.85_iters_staticpr=10000.png
+100644 blob 14983433d576e25274a0b29f60c466a5cf2b5284   75727	experiments/appliances+energy+prediction/energydata_complete.csv/0.85appliances+energy+prediction/plot_time-appliances+energy+prediction_0.85_iters_staticpr=10000.png
+100644 blob ccad34063c80542f5db16473ffa706ab2858b12b    7861	experiments/appliances+energy+prediction/energydata_complete.csv/0.85appliances+energy+prediction/time-appliances+energy+prediction_0.85_iters_staticpr=10000.xlsx
+100644 blob 9fb53e8b90ec0dc8d570b0f9bb9df945d90b8695    5303	experiments/appliances+energy+prediction/energydata_complete.csv/0.85appliances+energy+prediction/variables.xlsx
+100644 blob 6781968ea2c3bb24fd9add1d15054104c365e1b7    8535	experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/RMSE-appliances+energy+prediction_0.95_iters_staticpr=10000.xlsx
+100644 blob 252ceaae4038dc6e1b8013689f5c863d7dff854a   50459	experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/plot_RMSE-appliances+energy+prediction_0.95_iters_staticpr=10000.png
+100644 blob aa4af11547382c0f63b047839e9fe858736d9eb9   46176	experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/plot_RMSE_Summary-appliances+energy+prediction_0.95_iters_staticpr=10000.png
+100644 blob 9fe17157d4728483363f20b53750f77545ed02c7   70914	experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/plot_time-appliances+energy+prediction_0.95_iters_staticpr=10000.png
+100644 blob 53dd7701ada64e03aed71d9213e49a97abd42bf5    7869	experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/time-appliances+energy+prediction_0.95_iters_staticpr=10000.xlsx
+100644 blob ada6009476297ba4709f4188fecb5fda221a6879    5307	experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/variables.xlsx
+100644 blob 5a910d0bebf556dbf029b09537cfb8e7307a636e    8546	experiments/appliances+energy+prediction/energydata_complete.csv/0.99appliances+energy+prediction/RMSE-appliances+energy+prediction_0.99_iters_staticpr=10000.xlsx
+100644 blob 009e3d8cd2bcd2b58b61faaa0f027ad6c8746251   48327	experiments/appliances+energy+prediction/energydata_complete.csv/0.99appliances+energy+prediction/plot_RMSE-appliances+energy+prediction_0.99_iters_staticpr=10000.png
+100644 blob 4f8af8ff66b19a8b7bf62de83e6896fb741cf5d8   44289	experiments/appliances+energy+prediction/energydata_complete.csv/0.99appliances+energy+prediction/plot_RMSE_Summary-appliances+energy+prediction_0.99_iters_staticpr=10000.png
+100644 blob d2b6f1cb58f91a6571730be4c425493279a24bec   79102	experiments/appliances+energy+prediction/energydata_complete.csv/0.99appliances+energy+prediction/plot_time-appliances+energy+prediction_0.99_iters_staticpr=10000.png
+100644 blob 0a3ec32cb3d478da473e0bdf9f0df7167f2ea4a2    7896	experiments/appliances+energy+prediction/energydata_complete.csv/0.99appliances+energy+prediction/time-appliances+energy+prediction_0.99_iters_staticpr=10000.xlsx
+100644 blob 3a2148938690ff53b32aef9ce059117a6f106a8e    5309	experiments/appliances+energy+prediction/energydata_complete.csv/0.99appliances+energy+prediction/variables.xlsx
+100644 blob c86c67ee88621548682c9bd785a1925ae40715a6    8543	experiments/appliances+energy+prediction/energydata_complete.csv/0.9appliances+energy+prediction/RMSE-appliances+energy+prediction_0.9_iters_staticpr=10000.xlsx
+100644 blob 0042a5b7804ba125decbca54953d6074963fd49c   50138	experiments/appliances+energy+prediction/energydata_complete.csv/0.9appliances+energy+prediction/plot_RMSE-appliances+energy+prediction_0.9_iters_staticpr=10000.png
+100644 blob 9efe59a34b75e1aa3825c1dd76e804db56fb7741   45977	experiments/appliances+energy+prediction/energydata_complete.csv/0.9appliances+energy+prediction/plot_RMSE_Summary-appliances+energy+prediction_0.9_iters_staticpr=10000.png
+100644 blob f3f5502d36c6d40b34fda47fc7d4d00141978553   71827	experiments/appliances+energy+prediction/energydata_complete.csv/0.9appliances+energy+prediction/plot_time-appliances+energy+prediction_0.9_iters_staticpr=10000.png
+100644 blob 336068d9579ee1986cb0121b324d061286d2c0a7    7861	experiments/appliances+energy+prediction/energydata_complete.csv/0.9appliances+energy+prediction/time-appliances+energy+prediction_0.9_iters_staticpr=10000.xlsx
+100644 blob 074f0382735a0baee0cd42f8f2ae8e42419ee1e4    5306	experiments/appliances+energy+prediction/energydata_complete.csv/0.9appliances+energy+prediction/variables.xlsx
+100644 blob c2af8f4bcb74a6da5e5dfa6afe4a090984c0af61  632391	experiments/appliances+energy+prediction/energydata_complete.csv/appliances+energy+prediction with different energy values.zip
+100644 blob 0dcc75f5036d18090ceb9b5d8c94706d219b5ebf    8054	experiments/appliances+energy+prediction__energy_data_complete_out/0.89appliances+energy+prediction/RMSE-appliances+energy+prediction_0.89.xlsx
+100644 blob 5feaea3c12b286a5869618847dcdf3adece00078   48142	experiments/appliances+energy+prediction__energy_data_complete_out/0.89appliances+energy+prediction/plot_RMSE-appliances+energy+prediction_0.89.png
+100644 blob cbac2cd152a62be0c4eb4fc1b58d86856b18a816   43987	experiments/appliances+energy+prediction__energy_data_complete_out/0.89appliances+energy+prediction/plot_RMSE_Summary-appliances+energy+prediction_0.89.png
+100644 blob 4532df564777c5f949063cc84916dc1407bebdfb   95807	experiments/appliances+energy+prediction__energy_data_complete_out/0.89appliances+energy+prediction/plot_time-appliances+energy+prediction_0.89.png
+100644 blob 549964cd95e9c4d160eb6ba217c4b3347d38d4e3    7871	experiments/appliances+energy+prediction__energy_data_complete_out/0.89appliances+energy+prediction/time-appliances+energy+prediction_0.89.xlsx
+100644 blob 94e8a80ea943d75dd5f484de0d68606b4898868d    5259	experiments/appliances+energy+prediction__energy_data_complete_out/0.89appliances+energy+prediction/variables.xlsx
+100644 blob 65fe6df1610dd45d50a530aa738b643f31d3848b   29603	experiments/compare_all_methods.ipynb
+100644 blob 24adc87b3735c7a49af3e85e12fe8f389cb368b5   54786	experiments/compare_all_methods_parallel.ipynb
+100644 blob 946aa7f003630fbb23493e5e4afdcb2d8946e8cf    5845	experiments/gas+sensor+array+under+dynamic+gas+mixtures/0.89gas+sensor+array+under+dynamic+gas+mixtures/RMSE-gas+sensor+array+under+dynamic+gas+mixtures_0.89.xlsx
+100644 blob 618ab775481da24043ff4fde05a031cf618d6cf6   38780	experiments/gas+sensor+array+under+dynamic+gas+mixtures/0.89gas+sensor+array+under+dynamic+gas+mixtures/plot_RMSE-gas+sensor+array+under+dynamic+gas+mixtures_0.89.png
+100644 blob e9963df4931a72a2938d149372413e384fee63fb   42791	experiments/gas+sensor+array+under+dynamic+gas+mixtures/0.89gas+sensor+array+under+dynamic+gas+mixtures/plot_RMSE_Summary-gas+sensor+array+under+dynamic+gas+mixtures_0.89.png
+100644 blob 0740cb1112d54a6dd76a2681efa1184185cc1ad1   62156	experiments/gas+sensor+array+under+dynamic+gas+mixtures/0.89gas+sensor+array+under+dynamic+gas+mixtures/plot_time-gas+sensor+array+under+dynamic+gas+mixtures_0.89.png
+100644 blob 9e5dd3c90d3cf8740dd093a07aed2d13aafc0af1    5708	experiments/gas+sensor+array+under+dynamic+gas+mixtures/0.89gas+sensor+array+under+dynamic+gas+mixtures/time-gas+sensor+array+under+dynamic+gas+mixtures_0.89.xlsx
+100644 blob 3d1559404e8ae85f315b8a1c0cfbd78e47f52e46    5240	experiments/gas+sensor+array+under+dynamic+gas+mixtures/0.89gas+sensor+array+under+dynamic+gas+mixtures/variables.xlsx
+100644 blob ede67f65998f1ffdecd90278f3ec1defaa3012b3    8832	experiments/kaggleDataFrame/0.89energy daemand/RMSE-energy daemand_0.89.xlsx
+100644 blob e09eb3e3016be86e1023f7f74153cf37e4f7b2c3   51009	experiments/kaggleDataFrame/0.89energy daemand/plot_RMSE-energy daemand_0.89.png
+100644 blob e7afeee8e9696300422062686db559ecc65f71da   44465	experiments/kaggleDataFrame/0.89energy daemand/plot_RMSE_Summary-energy daemand_0.89.png
+100644 blob ae19eb9a8ae9a401e23a5a2f08ba58e7bf1863d2   70015	experiments/kaggleDataFrame/0.89energy daemand/plot_time-energy daemand_0.89.png
+100644 blob 4ff53b9fb3a0beed80a1304c8f18e2b72026b09e    8610	experiments/kaggleDataFrame/0.89energy daemand/time-energy daemand_0.89.xlsx
+100644 blob d78b7ebdb42c0bcb3ece2e2cb6141d46c30cc839    5223	experiments/kaggleDataFrame/0.89energy daemand/variables.xlsx
+100644 blob 7df0c3afdfcade17bdb7cd263c727ce5a6af6d10    3925	experiments/lstm.ipynb
+100644 blob 4b3a3073f7c909aa97d4d452ef30692e7c9470ce   61121	experiments/visualize_data.ipynb
+100644 blob 80f406fc0791ed724fa075283d23cf7bb72b454e       9	old/README.md
+100644 blob 131c8c3ba5d3b80617a3ae87c763d491bc4726bc     952	old/feature_extraction_SICE-PR/Dr.rezghi_codes_matlab/Cent.m
+100644 blob 24ac9b53c019f2ca9de46c6769244e9f590e4e43     992	old/feature_extraction_SICE-PR/Dr.rezghi_codes_matlab/MATLAB.rar
+100644 blob 5ed29e0e5249f76ec5937dbdef9936f07344f741     980	old/feature_extraction_SICE-PR/Dr.rezghi_codes_matlab/PCAvsSelect.m
+100644 blob 261155f787aed806b3bcdb5bff2f2c11403c3d16     485	old/feature_extraction_SICE-PR/Dr.rezghi_codes_matlab/Untitled.m
+100644 blob e8488ecca516bd325170773b0f603977cb08859f 4338046	old/feature_extraction_SICE-PR/Dr.rezghi_codes_matlab/dataframes.csv
+100644 blob b5268bdf2e0f498ded5e3dbc9714b15714f8899d  110538	old/feature_extraction_SICE-PR/my_codes/SICE_PR.ipynb
+100644 blob e09c0f5d5354659c3822d82cd9577ee09dabf46c   88628	old/feature_extraction_SICE-PR/my_codes/SVD_SICE_PR.ipynb
+100644 blob 6af711c4d41959c7501e850312c6ba9b84626d91 15176821	"old/feature_extraction_SICE-PR/my_codes/papers/Lars_Eld\303\251n_Matrix_Methods_in_Data.pdf"
+100644 blob 9b7c7ddf8ccf4ff9a52c1373caafa4b2f159daea  494300	old/feature_extraction_SICE-PR/my_codes/papers/template.pdf
+100644 blob 50b17d68d129e9c95d1fd9f94b78da0b5cf6ce02    8227	package/DiPCA/DIPCA.py
+100644 blob bdd4a92a6803a63bffc5c2478c8144a09c839219    3620	package/DiPCA/__pycache__/DIPCA.cpython-310.pyc
+100644 blob e24865fa85fab0ca2c7f894be26ed8f6c2bd7994    6625	package/__pycache__/featureSelection.cpython-310.pyc
+100644 blob 853ae0d8b635445f5e5f472c7ccaf114be1fa657    5071	package/__pycache__/featureSelection_SICE.cpython-310.pyc
+100644 blob 44c565b2cdd24b06264f8d2510810c009bd25ce6    8090	package/__pycache__/featureSelection_TEMPORAL_PAGERANK.cpython-310.pyc
+100644 blob 42914fa77c021e81b2423699abcb3745ed773c6c    5088	package/__pycache__/featureSelection_TENSORIZED.cpython-310.pyc
+100644 blob e345ff75b654d7aa46d9108cc9b38b6cae7d2e85    3076	package/__pycache__/loadDb.cpython-310.pyc
+100644 blob b335f9516f579483e0e29e6a8fb609ee9022742e     950	package/__pycache__/loadDb.cpython-311.pyc
+100644 blob ef78644f1e15702babc9cd16f65b69d1c37b0791    2186	package/__pycache__/regressors.cpython-310.pyc
+100644 blob b78622b3e6832fbd9e85be8d07204e2421686ffe    8566	package/__pycache__/trmf.cpython-310.pyc
+100644 blob 42af9293f3a1494a05d12f92a09461e54cdcbcaa    2069	package/__pycache__/trmf_regressor.cpython-310.pyc
+100644 blob 179e412cc0dd2338fc946178433188b8dc8dff6a    7156	package/featureSelection_SICE.py
+100644 blob 88124c0f0d941255b677dfac537ec51a4119d0fc   10698	package/featureSelection_TEMPORAL_PAGERANK.py
+100644 blob c6b245dc5015b44a89cc74478c58b86fa1cce3a5    7487	package/featureSelection_TENSORIZED.py
+100644 blob 0395112fe23a75eb2a9b407f77eb775365603f1c    4006	package/loadDb.py
+100644 blob bd02c917b4011d693542479254dfca63f772e387    2088	package/regressors.py
+100644 blob b2e060d1249bd69017a6b66c09ed4eece95d96fb    8695	package/trmf.py
+100644 blob 473ee6f9e61f97ad66efb4c4837641cee522d751    2840	package/trmf_regressor.py
+100644 blob a8dda7f86086c169790f2d8e7c3b3345999612fd   10427	tensorized_data/HOSVD-with energy.ipynb
+100644 blob db7b53a6b82c0c4df854e199599a46195cf7ea91  120191	tensorized_data/QR.ipynb
+100644 blob c507f53889c5749413e01c578553b6cdeb85b386   21943	tensorized_data/papers/result_feature_extraction_tensorized.docx
+100644 blob 2c77358dd91d7e0f7d31db710d0ca3db30079679 1042894	tensorized_data/papers/rezghi2017.pdf
+100644 blob d91bb064442fef723ea2c1bb95f8092962920f2d   90724	tensorized_data/svd on frequency space.ipynb

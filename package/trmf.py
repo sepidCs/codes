@@ -329,8 +329,8 @@ class trmf:
             z_2 = - (z_1 * np.roll(self.X, lag, axis=1)).sum(axis=1)
             grad[:, l] = z_2
             
-            print(f"Max value of self.X: {np.max(self.X)}")
-            print(f"Max value of W_l: {np.max(W_l)}")
+            # print(f"Max value of self.X: {np.max(self.X)}")
+            # print(f"Max value of W_l: {np.max(W_l)}")
             
         return grad + self.W * 2 * self.lambda_w / self.lambda_x -\
                self.alpha * 2 * (1 - self.W.sum(axis=1)).repeat(self.L).reshape(self.W.shape)
