@@ -747,8 +747,6 @@ database
 myPaper_latex
 codes.rar
 experiments/appliances+energy+prediction/energydata_complete.csv/appliances+energy+prediction with different energy values.zip
-experiments
-experiments/
 experiments/appliances+energy+prediction/energydata_complete.csv/0.95appliances+energy+prediction/plot_RMSE_Summary-appliances+energy+prediction_0.95_iters_staticpr=10000.png
 # Byte-compiled / optimized / DLL files
 __pycache__/
