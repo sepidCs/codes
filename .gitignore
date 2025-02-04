@@ -1,3 +1,4 @@
+data/*
 .ipynb_checkpoints/Untitled-checkpoint.ipynb
 .ipynb_checkpoints/Untitled1-checkpoint.ipynb
 Appliances energy prediction Data Set/.ipynb_checkpoints/Untitled-checkpoint.ipynb
@@ -910,3 +911,4 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+data/seed-iv/eeg_raw_data/1/1_20160518.mat
