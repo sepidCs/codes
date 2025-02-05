@@ -62,12 +62,12 @@ This repository (or folder) contains Python scripts and output data related to o
    ```bash
    pip install numpy scipy pandas
    ```
-   
 2. **Place `.mat` Files**  
    Ensure your `.mat` files are located in the correct folders (e.g., `seed-iv/eeg_raw_data/1`, `seed-iv/eeg_raw_data/2`, and `seed-iv/eeg_raw_data/3`).
 
-3. **Run the Script**  
-   - Run the Python script that constructs `all_sessions_data`.  
+3. **Run the Script**
+
+   - Run the Python script that constructs `all_sessions_data`.
    - Then run the CSV export script. The CSV files will be created in a hierarchical folder structure based on sessions and subject numbers.
 
 4. **Check Output**  
@@ -80,5 +80,3 @@ This repository (or folder) contains Python scripts and output data related to o
 - The `subject_number` is extracted from the file name by splitting the string on the underscore (`_`) and converting the first part to an integer (for instance, `7_20150715.mat` → subject_number = 7). Adjust this logic if your file names differ.
 
 ---
-
-Feel free to customize or extend this README with more details about your dataset, labeling scheme, or any preprocessing steps you perform prior to saving the CSV files.
